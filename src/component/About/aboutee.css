@@ -1,0 +1,24 @@
+.aboutUs {
+    /* color: rgb(85, 85, 255); */
+    color: rgb(107, 106, 106);
+  }
+  .container_nav{
+    margin-left: 240px;
+    
+  }
+  .whyus {
+    text-align: center;
+    color: rgb(155, 155, 155);
+  }
+  .founders {
+    position: relative;
+    top: 1.5rem;
+  }
+  .founder {
+    margin-top: 2rem;
+    text-align: center;
+    display: flex;
+  }
+  .founder div {
+    margin: 1.5rem;
+  }

@@ -1,15 +1,7 @@
-*{
-    padding:0;
-    margin:0;
-    box-sizing:border-box;
-}
-.product_container{
-    width:75%;
-    min-height: 80vh;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    justify-items: center;
-    padding: 10px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 img{
     width:250px;
@@ -19,15 +11,31 @@ img{
 img:hover{
     transform: scale(1.1);
 }
+.client_nav{
+    font-size: 15px;
+    color:white;
+    margin-left:200px;
+    text-align: center;
+    background-color: black;
+    margin: auto;
+    padding:20px;
+}
 .cards{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction:column ;
-    margin:20px 0;
+   display: grid;
+   grid-template-columns: auto auto;
+   margin-left:240px;
+   padding:20px;
+
 }
 .card-description{
     display: flex;
-    align-items:flex-start ;
+    /* align-items:flex-start; */
     flex-direction: column;
+    font-size: 20px;
+    padding:20px;
+    /* flex-wrap: nowrap; */
+}
+.clientss{
+    display: grid;
+    grid-template-columns: auto auto;
 }

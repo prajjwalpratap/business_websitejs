@@ -2,16 +2,13 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { Button,Stack } from "@mui/material";
-const Homee = () => {
+const Dashborad = () => {
     const navigate = useNavigate();
 
     return(
         <>
         <nav className="nav_bar">
-            <h1>Welcome to my homepage</h1>
-            <hr/>
            <div className="sidebar_items">
-            <i className="bi bi-gear-fill"> </i>
             <Stack spacing={3}>
             <Button variant='outlined' onClick={() => navigate('/Home')}>Home</Button>
             <Button variant='outlined' onClick={() => navigate('/Products')}>Products</Button>
@@ -25,4 +22,4 @@ const Homee = () => {
         </>
     );
 }
-export default Homee;
+export default Dashborad;

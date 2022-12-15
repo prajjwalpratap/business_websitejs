@@ -6,7 +6,7 @@ import Wishlist from './component/wishlist';
 import Clients from './component/Clients';
 import Home from './component/Home';
 import Products from './component/Products';
-import Aboutus from './component/Aboutus';
+import Aboutus from './component/About/Aboutus';
 import Sidenav from './component/Sidenav';
 function App() {
   return (

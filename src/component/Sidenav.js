@@ -9,7 +9,7 @@ const Sidenav = () => {
             <Stack spacing={3}>
             <Button variant='outlined' onClick={() => navigate('/Home')}>Home</Button>
             <Button variant='outlined' onClick={() => navigate('/Products')}>Products</Button>
-            <Button variant='outlined' onClick={() => navigate('/Wishlist')}>Wishlist<i className="bi bi-caret-down-fill"></i></Button>
+            <Button variant='outlined' onClick={() => navigate('/Wishlist')}>Wishlist</Button>
             <Button variant='outlined' onClick={() => navigate('/AboutUs')}>About Us</Button>
             <Button variant='outlined' onClick = {() => navigate('/Clients')}>Clients</Button>
             <Button variant='contained' onClick={() => navigate('/')}>LOGOUt</Button>
